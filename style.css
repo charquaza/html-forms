@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(236, 238, 241);
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    padding-right: 25px;
+    font-size: 12px;
+}
+nav ul li {
+    padding: 0 5px
+}
+nav ul a {
+    display: block;
+}
+nav button.sign-in {
+    width: 67.5px;
+    height: 32px;
+    border: 1px solid #4c4c4c;
+    border-radius: 4px;    
+    font-size: 13.5px;
+    color: white;
+    background-color: #0077C5;
+}
+
+h1 {
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+main,
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main > ul li,
+aside > ul li {
+    display: inline;
+}
+
+main > ul {
+    height: 38px;
+    padding-bottom: 4px;
+    font-size: 18px;
+}
+
+form {
+    width: 318px;
+    height: 569px;
+    padding: 30px;
+    border: 1px solid rgb(199, 199, 199);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+form h2 {
+    font-size: 24px;
+}
+form p:first-of-type {
+    width: 295px;
+    height: 32px;
+    padding: 20px 0;
+    font-size: 14px;
+    text-align: center;
+}
+form p:nth-of-type(2) {
+    width: 318px;
+    height: 54px;
+    padding-top: 10px;
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+form p:nth-of-type(3) {
+    width: 346px;
+    height: 21px;
+    padding: 16px;
+    margin: 32px 0 -30px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 21px;
+    background-color: rgb(236, 238, 241);
+}
+form input {
+    width: 304px;
+    height: 32px;
+    padding: 0px 6px 0px 8px;
+    border: 1px solid #C1C5C8;
+    border-radius: 3px;
+}
+form label {
+    width: 320px;
+    height: 25px;
+    padding-bottom: 6px;
+    font-size: 14px;
+}
+form label:nth-of-type(2n) {
+    margin-top: 25px;
+}
+form label:nth-of-type(3) {
+    width: 320px;
+    height: 15px;
+    padding-bottom: 5px;
+    font-size: 10px;
+}
+form button {
+    box-sizing: content-box;
+    width: 294px;
+    height: 32px; 
+    padding: 6px 12px;
+    border: none;
+    margin: 25px 0 10px;
+    border-radius: 4px;
+    font-size: 15.75px;
+    color: white;
+    background-color: #0077C5;
+}
+
+aside {
+    font-size: 12px;
+    padding: 20px 0;
+}
+aside > ul {
+    height: 18px;
+    padding-top: 5px;
+}
+
+footer {
+    height: 61px;
+    background-color: white;
+    line-height: 61px;
+    padding-left: 20px;
+    margin-top: 60px;
+    font-size: 14px;
+}
